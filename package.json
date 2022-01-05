@@ -4,9 +4,10 @@
   "homepage": "http://localhost:8081/InteroperabilityPortalbackend",
   "description": "Login/Registration authentication App",
   "main": "server.js",
-  "scripts": {
-       "heroku-postbuild": "npm install && npm run build",
-    },
+ "scripts": {
+  "start": "node src/index.js",
+  "build": "webpack" // This command will automatically run on deployment
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

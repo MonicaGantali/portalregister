@@ -5,12 +5,8 @@
   "description": "Login/Registration authentication App",
   "main": "server.js",
   "scripts": {
-    "client-install": "npm install --prefix client",
-    "heroku-postbuild": "npm install && npm install && npm run build",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "react-scripts build"
-  },
+       "heroku-postbuild": "npm install && npm run build",
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",

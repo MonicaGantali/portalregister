@@ -52,6 +52,6 @@ app.use("/api/users", users);
 //}
 
 
-const port = process.env.PORT || 3000;
-
+const port = process.env.PORT || 8080;
+app.get("/", (req, res) => {res.send("homepage")});
 app.listen(port,()=>console.log(`Server up and running on port ${port}`));
